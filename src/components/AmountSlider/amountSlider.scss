@@ -1,0 +1,13 @@
+.amountSlider{
+    &__slider{
+        &-values-container{display:flex;width:100%;flex-direction: row;align-items:center;justify-content:space-between;}
+        &-left, 
+        &-right{align-self:center;display:flex;}
+    } 
+}
+
+
+       
+.right{flex-direction: row;}
+.rc-slider{margin-top:15px;}
+.rc-slider-handle, .rc-slider-handle-1, .rc-slider-handle-dragging{border:5px solid white;}

@@ -1,0 +1,30 @@
+@import "colors.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800;900&display=swap");
+
+body {
+  color: $white;
+  background: linear-gradient(180deg, $lighterBlue 10%, $darkerBlue 100%);
+  -webkit-font-smoothing: auto;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 5vh;
+  font-size: 2.5rem;
+}
+
+.AppContainer {
+  &__container {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-box {
+      padding: 3rem;
+      background-color: $containerBlue;
+      margin-top: 5vh;
+      width: 40%;
+    }
+  }
+}

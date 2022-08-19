@@ -1,0 +1,38 @@
+@import "../../assets/colors.scss";
+
+.currency-input {
+  padding: 0;
+  &__element {
+    &--title {
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 1rem;
+      text-align: left;
+    }
+  }
+  &__currency {
+    &--container {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      width: 100%;
+    }
+    &--child-element {
+      display: flex;
+      width: 33%;
+    }
+    &--input {
+      background-color: inherit;
+      color: $white;
+      padding: 0.1em 1em;
+      border: 1px solid $white;
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+      font-weight: 800;
+    }
+  }
+}

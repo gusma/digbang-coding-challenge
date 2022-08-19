@@ -1,0 +1,29 @@
+.rc-slider {
+  margin: 3vh 5% 1vh 5%;
+  width: 90%;
+}
+.rc-slider-handle,
+.rc-slider-handle-1,
+.rc-slider-handle-dragging {
+  border: 5px solid white;
+}
+
+.intervalSlider {
+  &__slider .container {
+    display: flex;
+    margin: 3vh 1% 1vh 1%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__limit-container {
+    display: flex;
+    margin: 2vh 5% 1vh 5%;
+    width: 90%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
